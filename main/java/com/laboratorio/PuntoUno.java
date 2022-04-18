@@ -1,0 +1,16 @@
+package com.laboratorio;
+
+public class PuntoUno {
+
+    private double value1 = 22;
+    private double value2 = 26;
+
+    private void compareNumbers() {
+        double max = Math.max(value1, value2);
+        System.out.println(max);
+    }
+
+    public void run() {
+        compareNumbers();
+    }
+}
