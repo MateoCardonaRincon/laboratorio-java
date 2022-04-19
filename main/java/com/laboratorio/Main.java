@@ -14,9 +14,15 @@ public class Main {
         puntoTres.run();
 
         PuntoCuatro puntoCuatro = new PuntoCuatro();
-        puntoCuatro.run();*/
+        puntoCuatro.run();
 
         PuntoCinco puntoCinco = new PuntoCinco();
         puntoCinco.run();
+
+        PuntoSeis puntoSeis = new PuntoSeis();
+        puntoSeis.run();*/
+
+        PuntoSiete puntoSiete = new PuntoSiete();
+        puntoSiete.run();
     }
 }

@@ -3,8 +3,10 @@ package com.laboratorio;
 public class PuntoCinco {
 
     private void showNumbers() {
-        for (int i = 1; i <= 100; i++) {
-            System.out.println(i);
+        int number = 1;
+        while (number <= 100) {
+            System.out.println(number);
+            number++;
         }
     }
 
