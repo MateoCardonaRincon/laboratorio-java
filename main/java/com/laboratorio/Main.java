@@ -20,9 +20,20 @@ public class Main {
         puntoCinco.run();
 
         PuntoSeis puntoSeis = new PuntoSeis();
-        puntoSeis.run();*/
+        puntoSeis.run();
 
         PuntoSiete puntoSiete = new PuntoSiete();
         puntoSiete.run();
+
+        PuntoOcho puntoOcho = new PuntoOcho();
+        puntoOcho.run();
+
+        PuntoNueve puntoNueve = new PuntoNueve();
+        puntoNueve.run();
+
+        PuntoDiez puntoDiez = new PuntoDiez();
+        puntoDiez.run();*/
+        PuntoOnce puntoOnce = new PuntoOnce();
+        puntoOnce.run();
     }
 }

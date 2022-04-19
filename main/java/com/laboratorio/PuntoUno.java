@@ -1,6 +1,6 @@
 package com.laboratorio;
 
-public class PuntoUno {
+public class PuntoUno implements Ejercicio{
 
     private double value1 = 22;
     private double value2 = 26;

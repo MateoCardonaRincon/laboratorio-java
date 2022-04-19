@@ -1,6 +1,6 @@
 package com.laboratorio;
 
-public class PuntoCinco {
+public class PuntoCinco implements Ejercicio {
 
     private void showNumbers() {
         int number = 1;

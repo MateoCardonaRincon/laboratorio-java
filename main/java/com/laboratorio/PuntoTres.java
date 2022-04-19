@@ -1,15 +1,12 @@
 package com.laboratorio;
 
-import java.util.Scanner;
-
-public class PuntoTres {
+public class PuntoTres implements Ejercicio {
     private double radio;
     private double area;
 
     private void readRadius() {
-        Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese radio del círculo: ");
-        radio = scanner.nextDouble();
+        radio = SCANNER.nextDouble();
     }
 
     private void computeArea() {

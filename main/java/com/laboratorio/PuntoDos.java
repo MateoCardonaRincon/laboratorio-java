@@ -1,18 +1,15 @@
 package com.laboratorio;
 
-import java.util.Scanner;
-
-public class PuntoDos {
+public class PuntoDos implements Ejercicio{
 
     private double value1;
     private double value2;
 
     private void readNumbers(){
-        Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese un número: ");
-        value1 = scanner.nextDouble();
+        value1 = SCANNER.nextDouble();
         System.out.println("Ingrese otro número: ");
-        value2 = scanner.nextDouble();
+        value2 = SCANNER.nextDouble();
     }
 
     private void compareNumbers() {
