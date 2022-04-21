@@ -8,6 +8,7 @@ public class PuntoSeis implements Ejercicio {
         }
     }
 
+    @Override
     public void run() {
         showNumbers();
     }

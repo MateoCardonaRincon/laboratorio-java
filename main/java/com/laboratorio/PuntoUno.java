@@ -10,6 +10,7 @@ public class PuntoUno implements Ejercicio{
         System.out.println(max);
     }
 
+    @Override
     public void run() {
         compareNumbers();
     }

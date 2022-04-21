@@ -32,8 +32,27 @@ public class Main {
         puntoNueve.run();
 
         PuntoDiez puntoDiez = new PuntoDiez();
-        puntoDiez.run();*/
+        puntoDiez.run();
+
         PuntoOnce puntoOnce = new PuntoOnce();
         puntoOnce.run();
+
+        PuntoDoce puntoDoce = new PuntoDoce();
+        puntoDoce.run();
+
+        PuntoTrece puntoTrece = new PuntoTrece();
+        puntoTrece.run();
+
+        PuntoCatorce puntoCatorce = new PuntoCatorce();
+        puntoCatorce.run();
+
+        PuntoQuince puntoQuince = new PuntoQuince();
+        puntoQuince.run();
+        */
+
+        PuntoDieciseis puntoDieciseis = new PuntoDieciseis();
+        puntoDieciseis.run();
+
+
     }
 }

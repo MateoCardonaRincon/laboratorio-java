@@ -14,6 +14,7 @@ public class PuntoTres implements Ejercicio {
         System.out.println("área del círculo: " + area);
     }
 
+    @Override
     public void run() {
         readRadius();
         computeArea();

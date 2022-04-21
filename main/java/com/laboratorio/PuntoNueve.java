@@ -26,6 +26,7 @@ public class PuntoNueve implements Ejercicio {
         System.out.println(text);
     }
 
+    @Override
     public void run() {
         replaceCharacters("a", "e");
         addSomeText(readText());

@@ -17,6 +17,7 @@ public class PuntoDos implements Ejercicio{
         System.out.println(max);
     }
 
+    @Override
     public void run() {
         readNumbers();
         compareNumbers();

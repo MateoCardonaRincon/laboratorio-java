@@ -14,6 +14,7 @@ public class PuntoOnce extends PuntoNueve {
         System.out.println("Número de vocales: " + countVowels());
     }
 
+    // La expresión regular ^AEIOUaeiou engloba todos los caracteres diferentes a vocales
     private int countVowels(){
         return text.replaceAll("[^AEIOUaeiou]", "").length();
     }

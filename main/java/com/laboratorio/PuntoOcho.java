@@ -18,6 +18,7 @@ public class PuntoOcho implements Ejercicio {
         }
     }
 
+    @Override
     public void run() {
         isWorkingDay(readDay());
     }

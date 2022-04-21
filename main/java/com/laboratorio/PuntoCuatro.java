@@ -15,6 +15,7 @@ public class PuntoCuatro implements Ejercicio{
         System.out.println("Precio con IVA: " + price);
     }
 
+    @Override
     public void run(){
         readPrice();
         computeTaxes();

@@ -17,6 +17,7 @@ public class PuntoSiete implements Ejercicio {
         }
     }
 
+    @Override
     public void run() {
         checkNumber();
     }

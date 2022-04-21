@@ -10,6 +10,7 @@ public class PuntoCinco implements Ejercicio {
         }
     }
 
+    @Override
     public void run() {
         showNumbers();
     }
