@@ -33,7 +33,6 @@ public class Persona {
     }
 
     protected int calcularIMC() {
-        System.out.println("S+a" + SEXO + altura);
         double imc = peso / Math.pow(altura, 2);
         int rangoIMC = sobrePeso(imc);
         return bajoPeso(imc, rangoIMC);
