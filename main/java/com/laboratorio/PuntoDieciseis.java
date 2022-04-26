@@ -18,15 +18,15 @@ public class PuntoDieciseis extends Persona implements Ejercicio {
         nombreEntrada = SCANNER.nextLine();
         System.out.println("Edad: ");
         edadEntrada = Integer.parseInt(SCANNER.nextLine());
-        System.out.println("Sexo: ");
+        System.out.println("Sexo (Digite H: Hombre, M: Mujer)");
         sexoEntrada = SCANNER.nextLine().charAt(0);
-        System.out.println("Peso: ");
+        System.out.println("Peso (en Kilogramos): ");
         pesoEntrada = Double.parseDouble(SCANNER.nextLine());
-        System.out.println("Altura: ");
+        System.out.println("Altura (en metros): ");
         alturaEntrada = Double.parseDouble(SCANNER.nextLine());
     }
 
-    // Crea 3 objetos de la clase Persona
+    // Crea 3 objetos de la clase Persona, con las indicaciones del enunciado
     private void instanciarPersonas() {
         personas.add(new Persona(nombreEntrada, edadEntrada, sexoEntrada, pesoEntrada, alturaEntrada));
         personas.add(new Persona(nombreEntrada, edadEntrada, sexoEntrada));
@@ -46,12 +46,12 @@ public class PuntoDieciseis extends Persona implements Ejercicio {
 
     private void mostrarIMC(Persona persona) {
         String equivalencias[] = {"bajo peso", "un peso ideal", "sobrepeso"};
-        System.out.println(persona.nombre + " tiene " + equivalencias[persona.calcularIMC() + 1]);
+        System.out.println(persona.getNombre() + " tiene " + equivalencias[persona.calcularIMC() + 1]);
     }
 
     private void comprobarMayoriaDeEdad() {
         for (Persona p : personas) {
-            System.out.println(p.nombre + ": " + (p.esMayorDeEdad() ? "mayor" : "menor") + " de edad.");
+            System.out.println(p.getNombre() + ": " + (p.esMayorDeEdad() ? "mayor" : "menor") + " de edad.");
         }
     }
 

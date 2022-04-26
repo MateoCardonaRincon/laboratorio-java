@@ -9,7 +9,7 @@ public class Persona {
     private Integer edad = 0;
     private Double peso = 0.0;
     private Double altura = 0.0;
-    protected String nombre = "";
+    private String nombre = "";
 
     public Persona() {
         SEXO = 'H';
@@ -57,7 +57,7 @@ public class Persona {
     public String generaDNI() {
         int numeroAleatorio = ThreadLocalRandom.current().nextInt(10000000, 100000000);
         String letraGenerada = generarLetra(numeroAleatorio);
-        return String.valueOf(numeroAleatorio) + letraGenerada;
+        return numeroAleatorio + letraGenerada;
     }
 
     private String generarLetra(int numeroAleatorio) {
@@ -70,6 +70,10 @@ public class Persona {
     protected Persona setNombre(String nombre) {
         this.nombre = nombre;
         return this;
+    }
+
+    protected String getNombre() {
+        return this.nombre;
     }
 
     protected Persona setEdad(Integer edad) {
