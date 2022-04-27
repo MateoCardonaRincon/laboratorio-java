@@ -6,7 +6,7 @@ import java.util.stream.Stream;
 
 public class PuntoDiecisiete extends Electrodomestico implements Ejercicio {
 
-    List<Electrodomestico> electrodomesticos = new ArrayList<>();
+    private List<Electrodomestico> electrodomesticos = new ArrayList<>();
 
     private void instanciarElectrodomesticos() {
         electrodomesticos.add(new Electrodomestico());

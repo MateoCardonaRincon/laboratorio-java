@@ -2,8 +2,8 @@ package com.laboratorio;
 
 public class PuntoCuatro implements Ejercicio{
 
-    private final double IVA = 0.21;
-    private double price;
+    private final Double IVA = 0.21;
+    private Double price;
 
     private void readPrice(){
         System.out.println("Ingrese el precio del producto: ");

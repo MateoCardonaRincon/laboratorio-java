@@ -1,6 +1,6 @@
 package com.laboratorio;
 
-public class PuntoOnce extends PuntoNueve {
+public class PuntoOnce extends PuntoNueve implements Ejercicio{
 
     public PuntoOnce() {
         text = readText();

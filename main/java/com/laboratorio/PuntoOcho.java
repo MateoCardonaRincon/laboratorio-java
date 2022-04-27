@@ -10,10 +10,7 @@ public class PuntoOcho implements Ejercicio {
 
     private void isWorkingDay(String day) {
         switch (day.toLowerCase()) {
-            case "lunes", "martes", "miercoles", "jueves", "viernes" -> {
-                System.out.println("Es un día laboral");
-                break;
-            }
+            case "lunes", "martes", "miercoles", "jueves", "viernes" -> System.out.println("Es un día laboral");
             default -> System.out.println("No es un día laboral");
         }
     }

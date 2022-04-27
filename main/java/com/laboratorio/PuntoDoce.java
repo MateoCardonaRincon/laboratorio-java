@@ -35,7 +35,7 @@ public class PuntoDoce implements Ejercicio {
     }
 
     private void compareLetters(char c1, char c2, int index) {
-        differences += c1 == c2 ? "=" : word2.charAt(index);
+        differences += c1 == c2 ? "*" : word2.charAt(index);
     }
 
     @Override
@@ -44,6 +44,6 @@ public class PuntoDoce implements Ejercicio {
         sortWords();
         takeTail();
         compareWords();
-        System.out.println("Diferencias (= indica coincidencia): " + differences + tail);
+        System.out.println("Diferencias (* indica coincidencia): " + differences + tail);
     }
 }

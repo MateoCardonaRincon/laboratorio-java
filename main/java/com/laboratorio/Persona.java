@@ -60,6 +60,7 @@ public class Persona {
         return numeroAleatorio + letraGenerada;
     }
 
+    // comúnmente, con este algoritmo se generan las letras aleatorias del DNI
     private String generarLetra(int numeroAleatorio) {
         int resto = numeroAleatorio % 23;
         String letras[] = {"T", "R", "W", "A", "G", "M", "Y", "F", "P", "D", "X", "B",

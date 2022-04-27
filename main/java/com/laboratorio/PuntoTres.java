@@ -1,8 +1,8 @@
 package com.laboratorio;
 
 public class PuntoTres implements Ejercicio {
-    private double radio;
-    private double area;
+
+    private Double radio;
 
     private void readRadius() {
         System.out.println("Ingrese radio del círculo: ");
@@ -10,7 +10,7 @@ public class PuntoTres implements Ejercicio {
     }
 
     private void computeArea() {
-        area = Math.PI * Math.pow(radio, 2);
+        Double area = Math.PI * Math.pow(radio, 2);
         System.out.println("área del círculo: " + area);
     }
 

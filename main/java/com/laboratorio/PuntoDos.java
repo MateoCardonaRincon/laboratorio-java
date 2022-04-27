@@ -2,8 +2,8 @@ package com.laboratorio;
 
 public class PuntoDos implements Ejercicio{
 
-    private double value1;
-    private double value2;
+    private Double value1;
+    private Double value2;
 
     private void readNumbers(){
         System.out.println("Ingrese un número: ");
@@ -13,8 +13,8 @@ public class PuntoDos implements Ejercicio{
     }
 
     private void compareNumbers() {
-        double max = Math.max(value1, value2);
-        System.out.println(max);
+        Double max = Math.max(value1, value2);
+        System.out.println("El número mayor es: " + max);
     }
 
     @Override

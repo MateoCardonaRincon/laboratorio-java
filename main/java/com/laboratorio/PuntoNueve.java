@@ -5,7 +5,7 @@ public class PuntoNueve implements Ejercicio {
     protected String text;
 
     public PuntoNueve() {
-        text = "La sonrisa sera la mejor arma contra la tristeza";
+        text = "La sonrisa será la mejor arma contra la tristeza";
     }
 
     protected void replaceCharacters(String oldString, String newString) {
