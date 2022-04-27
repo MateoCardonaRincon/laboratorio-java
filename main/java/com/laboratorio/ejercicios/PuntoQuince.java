@@ -1,6 +1,4 @@
-package com.laboratorio;
-
-import javax.swing.JOptionPane;
+package com.laboratorio.ejercicios;
 
 public class PuntoQuince implements Ejercicio {
 

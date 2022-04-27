@@ -1,4 +1,4 @@
-package com.laboratorio;
+package com.laboratorio.ejercicios;
 
 import java.util.*;
 import java.util.stream.Collectors;

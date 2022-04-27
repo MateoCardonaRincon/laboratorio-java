@@ -1,6 +1,7 @@
 package com.laboratorio;
 
-import java.util.List;
+import com.laboratorio.ejercicios.Ejercicio;
+import com.laboratorio.ejercicios.EjercicioEjecutable;
 
 public class Main {
 

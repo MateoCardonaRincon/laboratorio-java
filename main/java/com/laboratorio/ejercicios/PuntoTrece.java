@@ -1,4 +1,4 @@
-package com.laboratorio;
+package com.laboratorio.ejercicios;
 
 import javax.swing.*;
 import java.time.LocalDateTime;

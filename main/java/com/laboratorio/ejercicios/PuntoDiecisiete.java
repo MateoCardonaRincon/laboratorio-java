@@ -1,4 +1,4 @@
-package com.laboratorio;
+package com.laboratorio.ejercicios;
 
 import java.util.ArrayList;
 import java.util.List;

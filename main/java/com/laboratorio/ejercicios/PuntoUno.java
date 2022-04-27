@@ -1,4 +1,4 @@
-package com.laboratorio;
+package com.laboratorio.ejercicios;
 
 public class PuntoUno implements Ejercicio{
 
